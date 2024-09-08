@@ -98,15 +98,18 @@ button {
 }
 @media screen and (max-width: 900px) {
   body {
+    width: 100%;
     background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: fit-content;
+    margin: 0;
+    padding: 0;
   }
   main {
-    width: 60%;
+    width: 100%;
     display: grid;
     grid-template-rows: repeat(2, fit-content);
     padding: 0 0 4rem 0;
